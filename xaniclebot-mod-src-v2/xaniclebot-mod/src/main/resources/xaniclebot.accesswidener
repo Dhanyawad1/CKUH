@@ -1,0 +1,11 @@
+accessWidener v2 named
+
+# Make Input movement fields accessible from our mixin
+accessible field net/minecraft/client/input/Input movementForward F
+accessible field net/minecraft/client/input/Input movementSideways F
+accessible field net/minecraft/client/input/Input jumping Z
+accessible field net/minecraft/client/input/Input sneaking Z
+accessible field net/minecraft/client/input/Input pressingForward Z
+accessible field net/minecraft/client/input/Input pressingBack Z
+accessible field net/minecraft/client/input/Input pressingLeft Z
+accessible field net/minecraft/client/input/Input pressingRight Z

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "xaniclebot",
+  "version": "${version}",
+  "name": "XanicleBot",
+  "description": "Client-side crystal PvP bot mod \u2014 /duel <player> to activate.",
+  "authors": [
+    "xanicle"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.xanicle.bot.XanicleBotMod"
+    ]
+  },
+  "mixins": [
+    "xaniclebot.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1"
+  },
+  "accessWidener": "xaniclebot.accesswidener"
+}
